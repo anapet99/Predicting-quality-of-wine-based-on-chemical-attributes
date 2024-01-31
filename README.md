@@ -29,33 +29,19 @@ Neizbalansirana podela po ocenama kvaliteta na osnovu histograma.
 ### Modeli 
   Podeljen je skup na test i trening. Izvrsena je standardizacija standardnim Scaler-om.  
 Modeli korisceni u projektu su:  
-#### 1.KNN (K najblizih suseda)
-  K najblizih suseda je model koji klasifikuje novu instancu na osnovu k vrednosti kojih se nalaze u njegovom okruzenju. Isprobano je 1-25 vrednosti za k, sa ocenom tacnoscu i koriscena je kros validacija.
-  Izabran je k=19 i treniran je model za tu vrednost. Izracunata je tacnost modela na osnovu test skupa.
-  
-#### 2.Linearna regresija sa tezinama    
-  Linearna regresija sa tezinama je neprarametarski model. Koristi se kada zelimo da dodamo tezinu nekim instancama, nesto sto se smatra bitnijim ili manje bitnim.
-
-    
-#### 3.AdaBoost  
-AdaBoost (Adaptive Boosting) je algoritam ansambla (ensemble) koji se koristi za poboljšanje performansi klasifikacionih modela.Zasniva se na promenama tezina instanci.
-
-
-    
-#### 4.Multinomijalna logisticka regresija  
-
-
-  
-#### 5.Potpuno povezana neuronska mreza    
-
-
-
-
-### Uproredjivanje modela i rezultati
-
+ 1.KNN (K najblizih suseda)  
+ 2.Linearna regresija sa tezinama    
+3.AdaBoost  
+4.Multinomijalna logisticka regresija  
+5.Potpuno povezana neuronska mreza    
 
 ### Listing neophodnih paketa
-
+Numpy  
+Matplotlib  
+Pandas  
+Sklearn  
+Tensorflow  
+Keras
 
 
 
