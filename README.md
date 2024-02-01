@@ -41,7 +41,8 @@ Matplotlib
 Pandas  
 Sklearn  
 Tensorflow  
-Keras
+Keras  
+Pygam
 
 
 
